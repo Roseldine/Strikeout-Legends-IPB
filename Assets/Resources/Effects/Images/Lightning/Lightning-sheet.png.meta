@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: 3d3e2f3aa1e7f02409bf7a1991c5bfd7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6968876943130116337
+    second: Lightning-sheet_0
+  - first:
+      213: -2803452893749808330
+    second: Lightning-sheet_1
+  - first:
+      213: 8224857502049284373
+    second: Lightning-sheet_2
+  - first:
+      213: 8474817148998869081
+    second: Lightning-sheet_3
+  - first:
+      213: -4261425021525666952
+    second: Lightning-sheet_4
+  - first:
+      213: 7234083065970544811
+    second: Lightning-sheet_5
+  - first:
+      213: -1069610609103890174
+    second: Lightning-sheet_6
+  - first:
+      213: -6465649799542337939
+    second: Lightning-sheet_7
+  - first:
+      213: -6523794654394631829
+    second: Lightning-sheet_8
+  - first:
+      213: 5021148939627353265
+    second: Lightning-sheet_9
+  - first:
+      213: 1406349129716732697
+    second: Lightning-sheet_10
+  - first:
+      213: -194619477874228895
+    second: Lightning-sheet_11
+  - first:
+      213: -1195311338421905175
+    second: Lightning-sheet_12
+  - first:
+      213: -5688203912327266603
+    second: Lightning-sheet_13
+  - first:
+      213: 4322809426378261072
+    second: Lightning-sheet_14
+  - first:
+      213: 111262051474971049
+    second: Lightning-sheet_15
+  - first:
+      213: -2691208057744082925
+    second: Lightning-sheet_16
+  - first:
+      213: 643134007372898421
+    second: Lightning-sheet_17
+  - first:
+      213: -7132436677928537326
+    second: Lightning-sheet_18
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lightning-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 526
+        width: 256
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f04ea638ac66b060800000000000000
+      internalID: 6968876943130116337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 526
+        width: 256
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633708b42722819d0800000000000000
+      internalID: -2803452893749808330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 526
+        width: 256
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511bad92250942270800000000000000
+      internalID: 8224857502049284373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 256
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9506776ab499c9570800000000000000
+      internalID: 8474817148998869081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7
+        width: 256
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873500b55806cd4c0800000000000000
+      internalID: -4261425021525666952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lightning-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 9
+        width: 256
+        height: 526
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba0d7de7830a46460800000000000000
+      internalID: 7234083065970544811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
