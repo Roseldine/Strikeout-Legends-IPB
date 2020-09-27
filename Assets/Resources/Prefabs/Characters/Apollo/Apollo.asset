@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Apollo
   m_EditorClassIdentifier: 
   name: Apolo
-  descrition: God of teh Sun & Fire
+  descrition: God of the Sun & Fire
   health: 550
   energy: 250
   speed: 5

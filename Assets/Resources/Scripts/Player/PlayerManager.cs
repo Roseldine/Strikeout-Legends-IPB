@@ -59,7 +59,7 @@ public class PlayerManager : MonoBehaviour
     private void Awake()
     {
         Instance = GetComponent<PlayerManager>();
-        _char = _characters.characters[_charId];
+        _char = _characters.characters[GameManager.Instance.charId];
         SpawnPlayer();
     }
 
@@ -95,7 +95,7 @@ public class PlayerManager : MonoBehaviour
     {
         _aim.ResetCharge();
         _animations.SetAttackAnimation(false);
-        Debug.Log("<color=red>Attack: Stopped</color>");
+        Debug.Log("<color=orange>Attack: Stopped</color>");
     }
 
     public void Attack()

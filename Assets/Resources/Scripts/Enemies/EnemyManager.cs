@@ -13,6 +13,8 @@ public class EnemyManager : MonoBehaviour
     Lean.Pool.LeanGameObjectPool[] _pools;
 
 
+
+
     private void Awake()
     {
         Instance = GetComponent<EnemyManager>();

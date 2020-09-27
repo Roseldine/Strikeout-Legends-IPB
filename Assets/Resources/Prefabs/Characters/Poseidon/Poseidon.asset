@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a678f7bcbaa93340872ef104eb68495, type: 3}
   m_Name: Poseidon
   m_EditorClassIdentifier: 
-  name: Zeus
-  descrition: God of thunder
+  name: Poseidon
+  descrition: God of the Sea
   health: 550
   energy: 250
   speed: 5
