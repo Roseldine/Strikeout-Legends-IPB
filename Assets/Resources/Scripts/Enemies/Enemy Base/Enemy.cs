@@ -19,6 +19,7 @@ public class Enemy : MonoBehaviour, IDamagable
     [SerializeField] float _speedMultiplier;
     [SerializeField] float _lookSpeed;
     [SerializeField] Transform _player;
+    [SerializeField] Lean.Pool.LeanGameObjectPool _pool;
     Vector3 _targetPos;
 
     [Header("Attack Variables")]
@@ -39,6 +40,16 @@ public class Enemy : MonoBehaviour, IDamagable
     [SerializeField] enemyState _state;
     [Tooltip("Idle, Wonder, Aim, Attack, Death")]
     public EnemyState[] _enemyStates;
+
+    public Lean.Pool.LeanGameObjectPool Pool { get { return _pool; } set { _pool = value; } }
+
+
+    private void OnEnable()
+    {
+        _state = enemyState.idle;
+        _health.ResetHealth();
+    }
+
 
     void Start()
     {
@@ -198,6 +209,8 @@ public class Enemy : MonoBehaviour, IDamagable
         _state = enemyState.wonder;
     }
 
+    public void ChangeState(enemyState state) => _state = state;
+
 
 
 
@@ -297,6 +310,8 @@ public class Enemy : MonoBehaviour, IDamagable
     public void Damage(int ammount)
     {
         _health.Damage(ammount);
+        if (_health.EntityHealth <= 0)
+            EnemyManager.Instance.DespawnEnemy(GetComponent<Enemy>());
     }
 
     public void Heal(int ammount)

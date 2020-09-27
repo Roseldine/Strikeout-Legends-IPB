@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
 
 
     /// <summary>
-    /// Menu, Game
+    /// Start, Menu, Game
     /// </summary>
     public void LoadScene(int id) => SceneManager.LoadSceneAsync(id);
 }

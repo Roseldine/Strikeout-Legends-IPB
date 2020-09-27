@@ -62,6 +62,14 @@ public class UIManager : MonoBehaviour
         _charTexts[3].text = _char.spellDescriptions[1];
         _charTexts[4].text = _char.spellDescriptions[2];
 
+        // change icons
+        if (_char.icons.Length >= 3)
+        {
+            for (int i = 0; i < _abilityIcons.Length; i++)
+                _abilityIcons[i].sprite = _char.icons[i];
+        }
+
+        // check if char is already selected
         _selectButton.onClick.RemoveAllListeners();
 
         if (id != GameManager.Instance.charId)

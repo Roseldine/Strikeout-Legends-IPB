@@ -182,8 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f934d459d04ab9847bebf0bc5604da12, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _healthMax: 500
-  _health: 500
+  _healthMax: 100
+  _health: 100
   _healthImg: {fileID: 6281479153855410677}
   _healthImgDelay: {fileID: 6281479152485134012}
   _delay: 0.3
@@ -256,8 +256,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c0ca698ad477149aecd2ce492dc99e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tags:
-  - Player_Attack
 --- !u!1001 &143509219
 PrefabInstance:
   m_ObjectHideFlags: 0

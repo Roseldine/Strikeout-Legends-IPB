@@ -154,6 +154,7 @@ GameObject:
   - component: {fileID: 1883003169000350609}
   - component: {fileID: 1883003169000350608}
   - component: {fileID: 1883003169000350623}
+  - component: {fileID: 4176909499014435760}
   m_Layer: 0
   m_Name: bomb
   m_TagString: Enemy_Attack
@@ -235,3 +236,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4176909499014435760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883003169000350621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cece5574e702ecc4dbf943bba5fbb246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _owner: 1
+  _ability: {fileID: 0}
+  _effect: 0
+  _damage: 30

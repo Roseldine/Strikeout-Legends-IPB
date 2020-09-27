@@ -103,6 +103,16 @@ public class PlayerAnimationController : MonoBehaviour
         _animator.SetBool(animBool, true);
     }
 
+
+    public void ResetAnimation()
+    {
+        SetAttackAnimation(false);
+        SetChargeAnimation(false);
+        SetMovingAnimation(_animBools[0]);
+    }
+
+
+
     public void SetChargeAnimation(bool val) => _animator.SetBool(_animBools[2], val);
     public void SetAttackAnimation(bool val) => _animator.SetBool(_animBools[3], val);
     bool IsAnimTrue(string animBool) => _animator.GetBool(animBool);

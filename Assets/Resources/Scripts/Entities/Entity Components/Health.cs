@@ -16,7 +16,8 @@ public class Health : MonoBehaviour, IDamagable
 
     #region Variable Properties
 
-    public int PlayerHealth { get { return _health; } }
+    public int EntityHealth { get { return _health; } }
+    public bool IsDead { get { return _isDead; } }
 
     #endregion
 

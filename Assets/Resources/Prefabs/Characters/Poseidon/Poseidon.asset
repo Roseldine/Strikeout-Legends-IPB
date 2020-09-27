@@ -30,7 +30,10 @@ MonoBehaviour:
     type: 3}
   dashTrail: {fileID: 8210435893257857802, guid: 3cd97d5deb2ebaf40ae28d69e801a081,
     type: 3}
-  icons: []
+  icons:
+  - {fileID: 21300000, guid: 9f9006fae5ccb854a9f495b474a26921, type: 3}
+  - {fileID: 21300000, guid: d022e140dfa88c948bb1c3fe240f1fa8, type: 3}
+  - {fileID: 21300000, guid: 0ebb3b32e8799f049ab0b3727f894010, type: 3}
   spellDescriptions:
   - Everytime Zeus hits an enemy, they get a lightning stack, and at 3 stacks the
     enemy is hit by 37 damage.

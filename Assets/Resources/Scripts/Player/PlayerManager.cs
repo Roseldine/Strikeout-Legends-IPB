@@ -31,10 +31,12 @@ public class PlayerManager : MonoBehaviour
 
     [SerializeField] EffectEnum.statusEffect _statusEffects;
 
+    bool _canMove;
+
 
     //===== Variable Properties
     #region Variable Properties
-    public int PlayerHealth { get { return _health.PlayerHealth; } }
+    public int PlayerHealth { get { return _health.EntityHealth; } }
     public int PlayerEnergy { get { return _energy.PlayerEnergy; } }
 
     public bool isMoving { get { return _movement.isMoving; } }
@@ -63,6 +65,11 @@ public class PlayerManager : MonoBehaviour
         SpawnPlayer();
     }
 
+    private void OnEnable()
+    {
+        _canMove = false;
+    }
+
 
     private void Update()
     {
@@ -71,9 +78,12 @@ public class PlayerManager : MonoBehaviour
 
     public void PlayerUpdate()
     {
-        _movement.MovementUpdate();
-        _animations.AnimationsUpdate();
-        _aim.AimUpdate();
+        if (_canMove == true)
+        {
+            _movement.MovementUpdate();
+            _animations.AnimationsUpdate();
+            _aim.AimUpdate();
+        }
     }
 
 
@@ -108,6 +118,7 @@ public class PlayerManager : MonoBehaviour
     public void Damage(int ammount)
     {
         _health.Damage(ammount);
+        LevelManager.Instance.UpdateState();
     }
 
     public void EnergyUse(int ammount)
@@ -140,4 +151,21 @@ public class PlayerManager : MonoBehaviour
         _attackSpawner = _playerGraphic.GetComponent<CharacterAnimEvents>().projectileSpawner;
         _attacks.SpecialSpawnPlace = _char.specialSpawnPlace;
     }
+
+
+    public void RestartPlayer()
+    {
+        transform.position = new Vector3(5, 1, 0);
+        _health.ResetHealth();
+        _energy.ResetEnergy();
+        _animations.ResetAnimation();
+        _canMove = false;
+    }
+
+    public void StartPlayer() => _canMove = true;
+    public void StopPlayer() => _canMove = false;
+
+
+
+    //============================================================== Player Stats
 }
