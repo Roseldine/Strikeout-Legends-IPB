@@ -21,6 +21,7 @@ public class EnemyManager : MonoBehaviour
 
     public int EnemiesSpawned { get { return _enemiesSpawned; } }
     public int EnemiesDespawned { get { return _enemiesDespawned; } }
+    public Transform EnemyContainer { get { return _enemyContainer; } }
 
 
     private void Awake()

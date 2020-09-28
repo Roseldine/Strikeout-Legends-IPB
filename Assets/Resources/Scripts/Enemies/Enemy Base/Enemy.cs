@@ -328,6 +328,25 @@ public class Enemy : MonoBehaviour, IDamagable
 
 
 
+
+
+    //================================================ CC effects
+    #region CC efects
+    public void CC_Pinned()
+    {
+        ChangeState(enemyState.idle);
+        StopAgent();
+    }
+
+    public void CC_KockUp()
+    {
+        ChangeState(enemyState.idle);
+        StopAgent();
+    }
+
+    #endregion
+
+
     //================================================ Debuggin
     #region Debug
     private void OnDrawGizmosSelected()
