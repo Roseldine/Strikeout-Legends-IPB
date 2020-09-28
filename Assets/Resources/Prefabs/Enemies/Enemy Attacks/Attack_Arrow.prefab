@@ -93,6 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _owner: 1
+  _attackType: 1
   _ability: {fileID: 2800564194836264882}
   _effect: 0
   _damage: 20
