@@ -98,7 +98,7 @@ public class PlayerAim : MonoBehaviour
             if (t >= _chargeTime)
             {
                 _isSpecial = true;
-                Debug.Log(_isSpecial);
+                //Debug.Log(_isSpecial);
                 break;
             }
 

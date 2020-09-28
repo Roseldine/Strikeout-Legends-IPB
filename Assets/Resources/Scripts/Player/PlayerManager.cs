@@ -33,6 +33,9 @@ public class PlayerManager : MonoBehaviour
 
     bool _canMove;
 
+    [Header("Debug")]
+    [SerializeField] bool _debug;
+
 
     //===== Variable Properties
     #region Variable Properties
@@ -61,7 +64,12 @@ public class PlayerManager : MonoBehaviour
     private void Awake()
     {
         Instance = GetComponent<PlayerManager>();
-        _char = _characters.characters[GameManager.Instance.charId];
+
+        if (_debug == false)
+            _char = _characters.characters[GameManager.Instance.charId];
+        else if (_debug == true)
+            _char = _characters.characters[_charId];
+
         SpawnPlayer();
     }
 
@@ -78,7 +86,7 @@ public class PlayerManager : MonoBehaviour
 
     public void PlayerUpdate()
     {
-        if (_canMove == true)
+        if (_canMove == true || _debug == true)
         {
             _movement.MovementUpdate();
             _animations.AnimationsUpdate();
@@ -150,6 +158,9 @@ public class PlayerManager : MonoBehaviour
         _attacks.SetAttackPools(_basic, _special);
         _attackSpawner = _playerGraphic.GetComponent<CharacterAnimEvents>().projectileSpawner;
         _attacks.SpecialSpawnPlace = _char.specialSpawnPlace;
+
+        _movement.DashTrail = Instantiate(_char.dashTrail, transform).GetComponent<TrailRenderer>();
+        _movement.DashTrail.transform.localPosition = Vector3.zero;
     }
 
 

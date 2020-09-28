@@ -1,4 +1,5 @@
 ﻿
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -15,8 +16,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float _lookSpeed;
 
     [Header("Dash Variables")]
-    [SerializeField] float _dashSpeed;
+    [SerializeField] TrailRenderer _dashTrail;
+    [SerializeField] float _dashMultiplier;
     [SerializeField] float _dashLength;
+    bool _isDashing = false;
 
     [Header("Joystick")]
     [SerializeField] Joystick _joystick;
@@ -26,9 +29,20 @@ public class PlayerMovement : MonoBehaviour
     Quaternion _rotation;
     bool _isMoving;
 
+    [Header("Debugging")]
+    [SerializeField] bool _debug;
+
     public Vector3 Direction{ get { return _direction; } }
     public Quaternion Rotation { get { return _rotation; } }    
     public bool isMoving { get { return _isMoving; } }
+    public TrailRenderer DashTrail { get { return _dashTrail; } set { _dashTrail = value; } }
+
+
+    private void Start()
+    {
+        if (_dashTrail != null)
+            _dashTrail.gameObject.SetActive(false);
+    }
 
 
     // Update is called once per frame
@@ -54,6 +68,8 @@ public class PlayerMovement : MonoBehaviour
 
             case controllerType.axial:
                 AxialInput();
+                if (Input.GetKeyDown(KeyCode.LeftShift) == true && _isDashing == false)
+                    StartCoroutine(CR_Dash());
                 break;
         }
     }
@@ -98,5 +114,28 @@ public class PlayerMovement : MonoBehaviour
 
 
     //================================================== Movement
-    void Move() => _rb.velocity = _direction * (_speed * _speedMultiplier);    
+    void Move()
+    {
+        if (_isDashing == false)
+            _rb.velocity = _direction * (_speed * _speedMultiplier);
+    }
+
+    IEnumerator CR_Dash()
+    {
+        _isDashing = true;
+        _dashTrail.Clear();
+        _dashTrail.gameObject.SetActive(true);
+        float t = 0;
+
+        while (t < _dashLength)
+        {
+            _rb.velocity = _direction * (_speed * _dashMultiplier * _speedMultiplier);
+
+            t += Time.deltaTime;
+            yield return null;
+        }
+
+        _isDashing = false;
+        _dashTrail.gameObject.SetActive(false);
+    }
 }

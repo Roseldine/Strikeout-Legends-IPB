@@ -741,6 +741,7 @@ MonoBehaviour:
   _attacks: {fileID: 3936400772956310321}
   _aim: {fileID: 4311323056278388776}
   _statusEffects: 0
+  _debug: 1
 --- !u!114 &4368614409129487392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -759,9 +760,10 @@ MonoBehaviour:
   _speed: 5
   _speedMultiplier: 1
   _lookSpeed: 10
-  _dashSpeed: 2
+  _dashMultiplier: 2
   _dashLength: 0.25
   _joystick: {fileID: 0}
+  _debug: 0
 --- !u!114 &4311323056278388776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -821,8 +823,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 791482191fda1ff458e8209528128220, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _tags:
-  - Enemy_Attack
 --- !u!114 &3936400772956310321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -835,6 +835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 654b6bf3869055e489b1997a67b5e689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _spawnPlace: 0
   _poolBasic: {fileID: 0}
   _poolSpecial: {fileID: 0}
   _cooldown: 0.5
