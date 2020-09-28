@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour
 {
-    public enum levelState { waiting, playing, won, lost, restarting }
+    public enum levelState { waiting, playing, won, lost, restarting, paused }
 
     public static LevelManager Instance;
 
@@ -13,6 +13,9 @@ public class LevelManager : MonoBehaviour
     [Header("UI Elements")]
     [Tooltip("start, win, lose")]
     [SerializeField] GameObject[] _uiElements;
+
+    [Header("Music")]
+    [SerializeField] AudioClip _music;
 
 
     private void Awake()
@@ -25,6 +28,7 @@ public class LevelManager : MonoBehaviour
     private void OnEnable()
     {
         Invoke("StartLevel", .3f);
+        AudioManager.Instance.PlayMusic(_music);
     }
 
 
@@ -67,6 +71,7 @@ public class LevelManager : MonoBehaviour
 
     public void RestartLevel()
     {
+        Time.timeScale = 1;
         ChangeLevelState(levelState.restarting);
         PlayerManager.Instance.RestartPlayer();
         EnemyManager.Instance.RestartEnemies();
@@ -78,6 +83,20 @@ public class LevelManager : MonoBehaviour
     {
         PlayerManager.Instance.StopPlayer();
         EnemyManager.Instance.DespawnAll();
+    }
+
+    public void PauseLevel()
+    {
+        ChangeLevelState(levelState.paused);
+        EnableUI(3);
+        Time.timeScale = 0;
+    }
+
+    public void ResumeLevel()
+    {
+        ChangeLevelState(levelState.playing);
+        DisableUI();
+        Time.timeScale = 1;
     }
 
 

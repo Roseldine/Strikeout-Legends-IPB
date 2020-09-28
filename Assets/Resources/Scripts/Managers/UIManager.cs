@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
 
     [Tooltip("map, shop, ranking, legends, milestones, social, dailyQuests")] 
     [SerializeField] menuActivate _activeMenu;
+    [SerializeField] AudioClip _music;
 
     [Header("Main Menu")]
     [SerializeField] GameObject[] _menuObjects;
@@ -34,6 +35,10 @@ public class UIManager : MonoBehaviour
         StartUpLists();
     }
 
+    private void OnEnable()
+    {
+        AudioManager.Instance.PlayMusic(_music);
+    }
 
 
 
