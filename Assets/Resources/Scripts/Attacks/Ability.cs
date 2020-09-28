@@ -44,4 +44,9 @@ public class Ability : MonoBehaviour
         else
             Destroy(gameObject);
     }
+
+    private void OnDisable()
+    {
+        CancelInvoke("Despawn");
+    }
 }

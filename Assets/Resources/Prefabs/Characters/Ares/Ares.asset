@@ -24,9 +24,9 @@ MonoBehaviour:
   specialSpeed: 5
   characterModel: {fileID: 4504762205838913297, guid: d970074270b106941bbd854a50234ae4,
     type: 3}
-  basicAttack: {fileID: 8291532927192931483, guid: c995f2dce5a8814469fa833a4d596fb9,
+  basicAttack: {fileID: 8291532927192931483, guid: 99231eeb7c738a84e804af6b0b17efff,
     type: 3}
-  specialAttack: {fileID: 6471387053031966566, guid: c9ffead3217bfa24f946c51b73aa3139,
+  specialAttack: {fileID: 8291532927192931483, guid: 5a68b1d113b4d6c47a5e5915cc122146,
     type: 3}
   dashTrail: {fileID: 8210435893257857802, guid: 3cd97d5deb2ebaf40ae28d69e801a081,
     type: 3}
