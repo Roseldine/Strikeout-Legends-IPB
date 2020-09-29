@@ -14,7 +14,7 @@ public class Ability : MonoBehaviour
     [SerializeField] float _lifeTime;
 
     [Header("Audio")]
-    [SerializeField] AudioClip _soundClip;
+    [SerializeField] protected AudioClip _soundClip;
 
     public Attack Attack { get { return _attack; } }
     public Lean.Pool.LeanGameObjectPool Pool { get { return _pool; } set { _pool = value; } }
