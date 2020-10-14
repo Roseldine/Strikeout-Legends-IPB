@@ -72,7 +72,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 6090213797564364473, guid: 001c752e8469c1b4ab780eecac145a1f,
+  m_Motion: {fileID: 6090213797564364473, guid: dae61a6209f8da744b180427af235130,
     type: 3}
   m_Tag: attack
   m_SpeedParameter: 
@@ -101,7 +101,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 4440593247420048991, guid: 001c752e8469c1b4ab780eecac145a1f,
+  m_Motion: {fileID: 4440593247420048991, guid: dae61a6209f8da744b180427af235130,
     type: 3}
   m_Tag: 
   m_SpeedParameter: 
@@ -130,7 +130,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -269632858507697, guid: 001c752e8469c1b4ab780eecac145a1f, type: 3}
+  m_Motion: {fileID: -269632858507697, guid: dae61a6209f8da744b180427af235130, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -192,7 +192,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy_Orc
+  m_Name: Enemy_Goblin
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: isIdle
