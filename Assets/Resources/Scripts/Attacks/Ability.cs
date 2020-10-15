@@ -13,6 +13,9 @@ public class Ability : MonoBehaviour
     [SerializeField] lifeTimeType _lifeType;
     [SerializeField] float _lifeTime;
 
+    [Header("Audio")]
+    [SerializeField] protected AudioClip _soundClip;
+
     public Attack Attack { get { return _attack; } }
     public Lean.Pool.LeanGameObjectPool Pool { get { return _pool; } set { _pool = value; } }
 
@@ -26,6 +29,9 @@ public class Ability : MonoBehaviour
     {
         if (_lifeType == lifeTimeType.limited)
             Invoke("Despawn", _lifeTime);
+
+        if (_soundClip != null)
+            AudioManager.Instance.PlayAttackSound(_soundClip);
     }
 
 
