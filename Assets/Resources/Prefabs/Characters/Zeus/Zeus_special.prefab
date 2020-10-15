@@ -4898,6 +4898,7 @@ MonoBehaviour:
   _pool: {fileID: 0}
   _lifeType: 1
   _lifeTime: 3
+  _soundClip: {fileID: 8300000, guid: a7c7fcca26f9d90468f46e6fcf4e32e0, type: 3}
 --- !u!95 &6827520501659601836
 Animator:
   serializedVersion: 3

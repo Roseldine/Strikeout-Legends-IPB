@@ -430,6 +430,11 @@ PrefabInstance:
       propertyPath: id
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 534928353357997062, guid: a984307b89db4f540a9af84b77a9d22e,
+        type: 3}
+      propertyPath: _soundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
     - target: {fileID: 5993704629795510444, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
       propertyPath: m_Name
@@ -493,7 +498,7 @@ PrefabInstance:
     - target: {fileID: 5993704629795510483, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 282.74542
+      value: 283.05
       objectReference: {fileID: 0}
     - target: {fileID: 5993704629795510483, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
@@ -1093,6 +1098,11 @@ PrefabInstance:
       propertyPath: _target
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 3548614487643591624, guid: fcdccef13d08d59419b969ab438765c6,
+        type: 3}
+      propertyPath: _soundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcdccef13d08d59419b969ab438765c6, type: 3}
 --- !u!224 &163361680 stripped
@@ -2952,8 +2962,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 676.6454, y: -465}
-  m_SizeDelta: {x: 1353.2908, y: 450}
+  m_AnchoredPosition: {x: 676.94995, y: -531.3876}
+  m_SizeDelta: {x: 1353.8999, y: 450}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714602646
 MonoBehaviour:
@@ -3090,8 +3100,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 676.6454, y: -90}
-  m_SizeDelta: {x: 1353.2908, y: 150}
+  m_AnchoredPosition: {x: 676.94995, y: -123.19379}
+  m_SizeDelta: {x: 1353.8999, y: 150}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &739973455
 MonoBehaviour:
@@ -3449,8 +3459,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 676.6454, y: -740}
-  m_SizeDelta: {x: 1353.2908, y: 100}
+  m_AnchoredPosition: {x: 676.94995, y: -839.58136}
+  m_SizeDelta: {x: 1353.8999, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &863364191
 GameObject:
@@ -4153,8 +4163,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 282.74542, y: -414.69543}
-  m_SizeDelta: {x: 565.49084, y: 829.39087}
+  m_AnchoredPosition: {x: 283.05, y: -498.88757}
+  m_SizeDelta: {x: 566.1, y: 997.77515}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1082764493
 MonoBehaviour:
@@ -5128,6 +5138,11 @@ PrefabInstance:
       propertyPath: _target
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3548614487643591624, guid: fcdccef13d08d59419b969ab438765c6,
+        type: 3}
+      propertyPath: _soundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fcdccef13d08d59419b969ab438765c6, type: 3}
 --- !u!224 &1376783777 stripped
@@ -5587,7 +5602,7 @@ PrefabInstance:
     - target: {fileID: 6502468675772713866, guid: 642446f4dff1c254e9e29b49fc7578db,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 676.6454
+      value: 676.94995
       objectReference: {fileID: 0}
     - target: {fileID: 6502468675772713866, guid: 642446f4dff1c254e9e29b49fc7578db,
         type: 3}
@@ -5922,8 +5937,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 676.6454, y: 0}
-  m_SizeDelta: {x: 1353.2908, y: 90}
+  m_AnchoredPosition: {x: 676.94995, y: 0}
+  m_SizeDelta: {x: 1353.8999, y: 90}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1610206879
 MonoBehaviour:
@@ -6455,6 +6470,11 @@ PrefabInstance:
       propertyPath: id
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 534928353357997062, guid: a984307b89db4f540a9af84b77a9d22e,
+        type: 3}
+      propertyPath: _soundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
     - target: {fileID: 5993704629795510444, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
       propertyPath: m_Name
@@ -6518,7 +6538,7 @@ PrefabInstance:
     - target: {fileID: 5993704629795510483, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 282.74542
+      value: 283.05
       objectReference: {fileID: 0}
     - target: {fileID: 5993704629795510483, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
@@ -6944,8 +6964,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1242.1362, y: -432.5}
-  m_SizeDelta: {x: 1353.2908, y: 865}
+  m_AnchoredPosition: {x: 1243.0499, y: -498.88757}
+  m_SizeDelta: {x: 1353.8999, y: 997.77515}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1923257793
 MonoBehaviour:
@@ -7026,6 +7046,11 @@ PrefabInstance:
       propertyPath: id
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 534928353357997062, guid: a984307b89db4f540a9af84b77a9d22e,
+        type: 3}
+      propertyPath: _soundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
     - target: {fileID: 5993704629795510444, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
       propertyPath: m_Name
@@ -7089,7 +7114,7 @@ PrefabInstance:
     - target: {fileID: 5993704629795510483, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 282.74542
+      value: 283.05
       objectReference: {fileID: 0}
     - target: {fileID: 5993704629795510483, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
@@ -7595,6 +7620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _activeMenu: 0
+  _music: {fileID: 8300000, guid: 093cbcfff54416b4c9027164e7e3ade9, type: 3}
   _menuObjects:
   - {fileID: 235042147}
   - {fileID: 944410588}
@@ -7907,7 +7933,7 @@ PrefabInstance:
     - target: {fileID: 6502468675772713866, guid: 642446f4dff1c254e9e29b49fc7578db,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 676.6454
+      value: 676.94995
       objectReference: {fileID: 0}
     - target: {fileID: 6502468675772713866, guid: 642446f4dff1c254e9e29b49fc7578db,
         type: 3}
@@ -8287,7 +8313,7 @@ PrefabInstance:
     - target: {fileID: 6502468675772713866, guid: 642446f4dff1c254e9e29b49fc7578db,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 676.6454
+      value: 676.94995
       objectReference: {fileID: 0}
     - target: {fileID: 6502468675772713866, guid: 642446f4dff1c254e9e29b49fc7578db,
         type: 3}
@@ -8403,6 +8429,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1181012181}
     m_Modifications:
+    - target: {fileID: 534928353357997062, guid: a984307b89db4f540a9af84b77a9d22e,
+        type: 3}
+      propertyPath: _soundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
     - target: {fileID: 5993704629795510444, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
       propertyPath: m_Name
@@ -8466,7 +8497,7 @@ PrefabInstance:
     - target: {fileID: 5993704629795510483, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 282.74542
+      value: 283.05
       objectReference: {fileID: 0}
     - target: {fileID: 5993704629795510483, guid: a984307b89db4f540a9af84b77a9d22e,
         type: 3}

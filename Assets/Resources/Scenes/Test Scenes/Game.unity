@@ -1467,7 +1467,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 358465184}
   _state: 1
-  _soundClip: {fileID: 0}
+  _soundClip: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
 --- !u!1 &372265990
 GameObject:
   m_ObjectHideFlags: 0
@@ -1944,7 +1944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 430169288}
   _state: 3
-  _soundClip: {fileID: 0}
+  _soundClip: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
 --- !u!1 &431695776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2072,7 +2072,7 @@ MonoBehaviour:
   - {fileID: 872880142}
   - {fileID: 1841802699}
   - {fileID: 1155515610}
-  _music: {fileID: 0}
+  _music: {fileID: 8300000, guid: ae57cb3b73ae5ed4f8b6cbd4a182f744, type: 3}
 --- !u!1 &451054812
 GameObject:
   m_ObjectHideFlags: 0
@@ -3951,7 +3951,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 799134921}
   _state: 0
-  _soundClip: {fileID: 0}
+  _soundClip: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
 --- !u!1 &831907295
 GameObject:
   m_ObjectHideFlags: 0
@@ -4498,7 +4498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 860870806}
   _state: 2
-  _soundClip: {fileID: 0}
+  _soundClip: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
 --- !u!1 &865591397
 GameObject:
   m_ObjectHideFlags: 0
@@ -5281,7 +5281,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 1063325528}
   _state: 2
-  _soundClip: {fileID: 0}
+  _soundClip: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
 --- !u!114 &1063325528
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6632,7 +6632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 1359364394}
   _state: 1
-  _soundClip: {fileID: 0}
+  _soundClip: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
 --- !u!114 &1359364394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8509,7 +8509,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _button: {fileID: 1879818441}
   _state: 2
-  _soundClip: {fileID: 0}
+  _soundClip: {fileID: 8300000, guid: 7c4330171e8656a4289ead21853e1559, type: 3}
 --- !u!1 &1896650391
 GameObject:
   m_ObjectHideFlags: 0
