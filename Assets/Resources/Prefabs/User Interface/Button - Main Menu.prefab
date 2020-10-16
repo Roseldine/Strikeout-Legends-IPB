@@ -135,6 +135,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _target: 0
   _button: {fileID: 873262045725468274}
+  _soundClip: {fileID: 0}
 --- !u!1 &873262046009452080
 GameObject:
   m_ObjectHideFlags: 0
