@@ -4917,6 +4917,7 @@ MonoBehaviour:
   _pool: {fileID: 0}
   _lifeType: 1
   _lifeTime: 5
+  _soundClip: {fileID: 8300000, guid: 2265f5ec83be11f4c972ec1344c3feb7, type: 3}
 --- !u!114 &4106953467757705619
 MonoBehaviour:
   m_ObjectHideFlags: 0

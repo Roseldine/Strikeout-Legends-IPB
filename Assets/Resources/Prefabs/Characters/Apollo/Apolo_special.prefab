@@ -209,6 +209,7 @@ MonoBehaviour:
   _pool: {fileID: 0}
   _lifeType: 1
   _lifeTime: 3
+  _soundClip: {fileID: 8300000, guid: ebb715ff438e88e41a42c95336321c25, type: 3}
   _pivot: {fileID: 7276822609468742483}
   _ratio: {x: 1, y: 0.5}
   _lookSpeed: 10

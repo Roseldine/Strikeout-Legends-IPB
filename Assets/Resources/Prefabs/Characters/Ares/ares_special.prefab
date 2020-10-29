@@ -307,6 +307,7 @@ MonoBehaviour:
   _pool: {fileID: 0}
   _lifeType: 0
   _lifeTime: 0
+  _soundClip: {fileID: 8300000, guid: 2c9ba4b836e345c4cae65fb6f4c6c4dd, type: 3}
   _pinnedParent: {fileID: 7483928132905984313}
 --- !u!114 &4735919453984890006
 MonoBehaviour:

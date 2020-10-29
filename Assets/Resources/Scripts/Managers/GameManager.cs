@@ -36,5 +36,9 @@ public class GameManager : MonoBehaviour
     /// <summary>
     /// Start, Menu, Game
     /// </summary>
-    public void LoadScene(int id) => SceneManager.LoadSceneAsync(id);
+    public void LoadScene(int id)
+    {
+        SceneManager.LoadSceneAsync(id);
+        Time.timeScale = 1;
+    }
 }

@@ -148,6 +148,7 @@ GameObject:
   - component: {fileID: 7840416218920246444}
   - component: {fileID: 5121240710774937866}
   - component: {fileID: 7840416218920246419}
+  - component: {fileID: 730704175501738790}
   m_Layer: 0
   m_Name: Special_Poseidon
   m_TagString: Untagged
@@ -204,6 +205,7 @@ MonoBehaviour:
   _pool: {fileID: 0}
   _lifeType: 1
   _lifeTime: 5
+  _soundClip: {fileID: 8300000, guid: c404390775124b448ab973308fe8cdd2, type: 3}
   _curve:
     serializedVersion: 2
     m_Curve:
@@ -241,6 +243,23 @@ MonoBehaviour:
   _kockUpHeight: 3
   _rb: {fileID: 5121240710774937866}
   _speed: 10
+--- !u!114 &730704175501738790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7840416218920246445}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd7da059ff9964419ccb5c05e146bdf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _attack: {fileID: 0}
+  _pool: {fileID: 0}
+  _lifeType: 0
+  _lifeTime: 0
+  _soundClip: {fileID: 8300000, guid: c404390775124b448ab973308fe8cdd2, type: 3}
 --- !u!1 &7840416219391685734
 GameObject:
   m_ObjectHideFlags: 0
